@@ -1,0 +1,90 @@
+QWidget {
+    color: #f0f0f0;
+    background-color: #3a3a3a;
+    selection-background-color: #555555;
+    selection-color: #f0f0f0;
+}
+
+QMenuBar {
+    background-color: #464646;
+    color: #f0f0f0;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+}
+
+QMenuBar::item:selected {
+    background-color: #555555;
+    color: #f0f0f0;
+}
+
+QMenu {
+    background-color: #464646;
+    color: #f0f0f0;
+    selection-background-color: #555555;
+    selection-color: #f0f0f0;
+}
+
+QMenu::item:selected {
+    background-color: #555555;
+    color: #f0f0f0;
+}
+
+QLineEdit, QPlainTextEdit, QTextEdit, QListView, QTreeView {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    selection-background-color: #555555;
+    selection-color: #f0f0f0;
+    border: 1px solid #707070;
+}
+
+QComboBox, QAbstractSpinBox {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    selection-background-color: #555555;
+    selection-color: #f0f0f0;
+    border: 1px solid #707070;
+    padding: 2px;
+}
+
+QPushButton {
+    background-color: #464646;
+    color: #f0f0f0;
+    border: 1px solid #707070;
+    padding: 5px;
+    min-width: 60px;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}
+
+QCheckBox, QRadioButton {
+    color: #f0f0f0;
+}
+
+QCheckBox::indicator, QRadioButton::indicator {
+    background-color: #464646;
+    border: 1px solid #707070;
+    width: 10px;
+    height: 10px;
+}
+
+QCheckBox::indicator:checked, QRadioButton::indicator:checked {
+    background-color: #f0f0f0;
+}
+
+QGroupBox {
+    background-color: #2d2d2d;
+    border: 1px solid #707070;
+    margin-top: 10px;
+    color: #f0f0f0;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 3px;
+}
+
