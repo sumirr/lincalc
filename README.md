@@ -1,5 +1,3 @@
-
-````markdown
 # Linear Algebra Calculator
 
 A powerful and lightweight desktop tool for performing linear algebra operations on vectors and matrices. Built with Python and Qt (PySide6), it offers an interactive interface to compute various vector and matrix functions.
@@ -92,8 +90,3 @@ Use the buttons to perform operations. Output appears in the scrollable output b
 ## 🪪 License
 
 MIT License. See `LICENSE` file for more details.
-
-```
-
----
-```
